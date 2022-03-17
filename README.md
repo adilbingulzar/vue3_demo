@@ -19,7 +19,7 @@ VUE_APP_API_KEY="your basic authorization key"
 ```sh
 npm run serve
 ```
-- After successful execution you will see localhost url in  your termainl (http://localhost:8080/)
+- After successful execution you will see localhost url in  your terminal (http://localhost:8080/)
 This is the url to run your web app on browser. 
 You can use following test credentials to login.
 email: adilbingulzar@gmail.com
