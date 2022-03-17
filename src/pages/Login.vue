@@ -48,19 +48,7 @@
                                         ]"
                                     />
                                     <label for="" class="mb-0 placeholder-label">password</label>
-                                    <button
-                                        class="btn input-btn p-0 position-absolute rounded-circle"
-                                        @click="showPassword()"
-                                    >
-                                        <i
-                                            v-if="this.type == 'password'"
-                                            class="bi bi-eye-fill"
-                                        ></i>
-                                        <i
-                                            v-if="this.type == 'text'"
-                                            class="bi bi-eye-slash-fill"
-                                        ></i>
-                                    </button>
+
                                     <p v-if="errors.email" class="invalid-message mb-0 pt-2">
                                         {{ errors.password }}
                                     </p>
