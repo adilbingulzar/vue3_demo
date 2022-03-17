@@ -21,4 +21,6 @@ npm run serve
 ```
 - After successful execution you will see localhost url in  your termainl (http://localhost:8080/)
 This is the url to run your web app on browser. 
-
+You can use following test credentials to login.
+email: adilbingulzar@gmail.com
+password: 123456
