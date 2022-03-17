@@ -1,5 +1,5 @@
 # vue3_demo
-demo project to show my skils with vue3 and API integration.
+demo project to show my skils with vue3 and API integration. This application is tested with node 14.
 
 ## Installation
 
