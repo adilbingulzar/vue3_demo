@@ -5,7 +5,7 @@ export default {
         const data = {};
         const headers = {
             'Content-Type': 'application/json',
-            Authorization: 'Basic ZGFuYWJpamFrOmlWcFprMUMwQUZGd0RmRFY='
+            Authorization: 'Basic ' + process.env.VUE_API_KEY
         };
         return API.apiClient.post('/accounts/search', data, {
             headers: headers
@@ -20,7 +20,7 @@ export default {
         };
         const headers = {
             'Content-Type': 'application/json',
-            Authorization: 'Basic ZGFuYWJpamFrOmlWcFprMUMwQUZGd0RmRFY='
+            Authorization: 'Basic ' + process.env.VUE_API_KEY
         };
         return API.apiClient.post('/accounts', data, {
             headers: headers
